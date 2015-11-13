@@ -1,0 +1,218 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,700,900' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/img/favicon.png?">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-68413266-1', 'auto');
+          ga('send', 'pageview');
+    </script>
+</head>
+<body>
+    <div align="center">
+      <img src="../img/logos/for_challenges/small_logo.png" class="brand-image" alt="Logo">
+    </div>
+    <div align="center">
+        <h1> Data Sets by Sponsors</h1>
+        <h3> Here are some of the datasets that our sponsors are going to share with you during the event:</h3>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 text-dark" align="center">
+                  <h4>Company</h4>
+            </div>
+            <div class="col-md-3 text-dark" align="center">
+                  <h4>Subject</h4>
+            </div>
+            <div class="col-md-6 text-dark" align="center">
+                  <h4>Description</h4>
+            </div>
+        </div>
+
+        <!-- ROW -->
+         <div class="row data-table">
+            <div class="col-md-3 text-dark" align="center">
+                  <img class="img-responsive" src="../img/logos/for_challenges/logo_ebay.png" alt="sample" style="">
+            </div>
+            <div class="col-md-3 text-dark" align="center">
+                  <h3> ebay listings </h3>
+            </div>
+            <div class="col-md-6 text-dark">
+                  <p>eBay is very flexible with the data it requires sellers to provide. Upon listing, the seller provides a short title of what he sells, some optional domain specific specifications (like screen size for TV’s, color for fashion or clarity for diamonds), and a category, an image and an HTML formed description.</p>
+
+            </div>
+        </div>
+        <div class="row" align="center">
+            <div class="col-md-12 text-center">
+                <img class="co-host-separator" src="../img/logos/long_line.png">
+                <br>
+            </div>
+        </div>
+
+         <!-- ROW -->
+        <div class="row data-table">
+            <div class="col-md-3 text-dark" align="center">
+                  <img class="img-responsive" src="../img/logos/logo_outbrain.png" alt="sample" style="">
+            </div>
+            <div class="col-md-3 text-dark" align="center">
+                  <h3> Article viewings </h3>
+            </div>
+            <div class="col-md-6 text-dark">
+                  <p>The data set is composed of a set article entries - containing selected features of the articles - and a set of article viewing events by various users including page referrals.</p>
+
+            </div>
+        </div>
+        <div class="row" align="center">
+            <div class="col-md-12 text-center">
+                <img class="co-host-separator" src="../img/logos/long_line.png">
+                <br>
+            </div>
+        </div>
+
+        <!-- ROW -->
+        <div class="row data-table">
+            <div class="col-md-3 text-dark" align="center"> <!--style="vertical-align:middle" -->
+                  <img class="img-responsive" src="../img/logos/for_challenges/logo_intel.png" alt="sample" style="">
+            </div>
+            <div class="col-md-3 text-dark" align="center">
+                  <h3> Parkinson's Disease </h3>
+            </div>
+            <div class="col-md-6 text-dark">
+                  <p>The data was collected using ~30 different 3-axial accelerometer signals, each of which was recorded from an accelerometer that was attached to the spine (near the lower back) of a Parkinson's Disease patient. Each signal describes a walking session of 10 seconds. In addition, data includes the number of steps that were carried by the patient, in each session, and the total covered distance, during the session. Although relatively simple, these two measures provide insightful information regarding the gait quality of the patients.</p>
+            </div>
+        </div>
+
+        <div class="row" align="center">
+            <div class="col-md-12 text-center">
+                <img class="co-host-separator" src="../img/logos/long_line.png">
+                <br>
+            </div>
+        </div>
+
+            <!-- ROW -->
+            <div class="row data-table">
+                <div class="col-md-3 text-dark" align="center">
+                      <img class="img-responsive" src="../img/logos/for_challenges/logo_neura.png" alt="sample" style="">
+                </div>
+                <div class="col-md-3 text-dark" align="center">
+                      <h3> Mobile Sensoers </h3>
+                </div>
+                <div class="col-md-6 text-dark">
+                      <p>A dataset of around 50 anonymized Neura users and their recorded mobile sensors data during at least 2 months’ period. Sensors include accelerometers, bio-impedance, glucometers, thermostat and others, their data collected through various integrations with Neura.</p>
+                </div>
+            </div>
+
+        <div class="row" align="center">
+            <div class="col-md-12 text-center">
+                <img class="co-host-separator" src="../img/logos/long_line.png">
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br>
+
+    <div align="center">
+        <h1> Open Data Sets</h1>
+        <h3> Here are some great open data sets we think you might like to work with:</h3>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 text-dark" align="center">
+                <h4>Data from</h4>
+            </div>
+            <div class="col-md-3 text-dark" align="center">
+                <h4>Subject</h4>
+            </div>
+            <div class="col-md-6 text-dark" align="center">
+                <h4>Description</h4>
+            </div>
+        </div>
+
+            <!-- ROW -->
+            <div class="row data-table">
+                <div class="col-md-3 text-dark"s style="vertical-align:middle" align="center">
+                      <img class="img-responsive" src="../img/logos/for_challenges/logo_beit_hatfuzot.png" alt="sample" style="">
+                </div>
+                <div class="col-md-3 text-dark" align="center">
+                      <h3> Family trees </h3>
+                </div>
+                <div class="col-md-6 text-dark">
+                      <p>The Beit Hatfutsot's family tree database contains over 10,000 family trees encompassing over five million people. The database contains names, professions, births, family ties and numerous other details. </p>
+                </div>
+            </div>
+            <div class="row" align="center">
+                <div class="col-md-12 text-center">
+                    <img class="co-host-separator" src="../img/logos/long_line.png">
+                    <br>
+                </div>
+            </div>
+
+        <!-- ROW -->
+         <div class="row data-table">
+            <div class="col-md-3 text-dark" align="center">
+                  <img class="img-responsive" src="../img/logos/for_challenges/logo_gdelt.png" alt="sample" style="">
+            </div>
+            <div class="col-md-3 text-dark" align="center">
+                  <h3> World news </h3>
+            </div>
+            <div class="col-md-6 text-dark">
+                  <p>GDELT Project monitors the world's broadcast, print, and web news from around the world and identifies people, locations, organizations, emotions and more. This dataset has been used to analyze international relations, monitor the war on Ebola, create influence networks of powerful individuals and examining the implications of the Arab Spring.</p>
+
+            </div>
+        </div>
+        <div class="row" align="center">
+            <div class="col-md-12 text-center">
+                <img class="co-host-separator" src="../img/logos/long_line.png">
+                <br>
+            </div>
+        </div>
+
+         <!-- ROW -->
+        <div class="row data-table">
+            <div class="col-md-3 text-dark" align="center">
+                  <img class="img-responsive" src="../img/logos/for_challenges/logo_reddit.png" alt="sample" style="">
+            </div>
+            <div class="col-md-3 text-dark" align="center">
+                  <h3> Reddit posts </h3>
+            </div>
+            <div class="col-md-6 text-dark">
+                  <p> A huge dataset containing all the public comments from the social networking site Reddit. </p>
+            </div>
+        </div>
+        <div class="row" align="center">
+            <div class="col-md-12 text-center">
+                <img class="co-host-separator" src="../img/logos/long_line.png">
+                <br>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div align="center">
+      <h3> More coming soon... </h3>
+    </div>
+    <br><br>
+</body>

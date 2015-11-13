@@ -1,7 +1,7 @@
 # Site settings
 title: DataHack
 email: contact@datahack-il.com
-baseurl: ''
+baseurl: '/datahack-final'
 description: "A website for the DataHack hackathon, Nov 2015."
 
 # Color settings (hex-codes without the leading hash-tag)

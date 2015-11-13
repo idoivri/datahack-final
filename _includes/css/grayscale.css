@@ -530,3 +530,7 @@ a.register-link {
     width: 100%;
     height: auto;
 }
+
+.data-table {
+    padding-top: 20px;
+}

@@ -374,6 +374,10 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
+div.horizontalgap {
+  float:left;overflow:hidden;height:1px;width:0px;
+}
+
 img.brand-image {
     margin: 120px 0px 80px 0px;
 }
@@ -517,3 +521,21 @@ a.register-link {
     height: 20px;
 }
 
+/* ===================
+     Shay's additions
+   =====================*/
+
+.imgcontainer {
+    width: 200px;
+    height: 120px;
+}
+
+/* resize images */
+.imgcontainer img {
+    width: 100%;
+    height: auto;
+}
+
+.data-table {
+    padding-top: 20px;
+}
